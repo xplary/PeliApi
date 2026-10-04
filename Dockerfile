@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:20
 
 # Instalar FFmpeg, utilidades de red y Chromium (que instala automáticamente todas las librerías de Puppeteer)
 RUN apt-get update && apt-get install -y \
